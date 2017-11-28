@@ -2,10 +2,11 @@
   "name": "my-project",
   "description": "A Vue.js project",
   "version": "1.0.0",
-  "author": "jason00111 <emberleyjason@gmail.com>",
+  "author": "imsolost <imsolost@gmail.com>",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
+    "start": "node src/main.js",
+    "start:dev": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
